@@ -44,6 +44,12 @@ if (mysqli_connect_errno()) trigger_error(mysqli_connect_error());
 
 <div class="container">
 	<h1>Monitor de Redes</h1>
+	
+	<a href="index.php"><< Voltar</a>
+	<br />
+	<br />
+	<br />
+	<br />
 <?php
 	
 
