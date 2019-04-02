@@ -75,7 +75,7 @@ echo
 "
 <div class='bloco' style='background-color:#ccc; border:2px solid green; padding:10px; margin:10px 3px 10px 0px;'>
 
-<img src='online.png' width='20px'> <a href='detalhes.php?id=$id' target='_blank'>".$nome. "</a> <br />" . "".$ip;
+<img src='online.png' width='20px'> <a href='detalhes.php?id=$id' target='_blank'>".$nome. "</a> | <a href='delete.php?id=$id'>Delete </a><br />" . "".$ip;
 
 echo "</div>";
 
@@ -83,7 +83,7 @@ echo "</div>";
 } else {
 echo "
 <div class='bloco' style='background-color:#ccc; border:2px solid green; padding:10px; margin:10px 3px 10px 0px;'>
-<img src='offline.png' width='20px'> ".$nome . ": <br />" . "".$ip;
+<img src='offline.png' width='20px'> ".$nome . ":  | <a href='delete.php?id=$id'>Delete </a><br />" . "".$ip;
 
 echo "</div>";
 
