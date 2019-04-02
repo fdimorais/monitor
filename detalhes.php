@@ -72,7 +72,7 @@ echo
 "
 <div class='bloco'>
 
-<img src='online.png' width='20px'> <a href='computador.php?id=$id' target='_blank'>".$nome. "</a> <br />" . "".$ip;
+<img src='online.png' width='20px'> <a href='computador.php?id=$id'>".$nome. "</a> <br />" . "".$ip;
 
 echo "<div style='font-familly:console;font-size:12px; background-color:#eee; padding:5px; width:200px;border:3px solid green;'>";
 verificaPortas($ip);
